@@ -1,7 +1,7 @@
 # microPython Teleinfo
 Read teleinfo from France EDF 🇫🇷 electricty provider. 🔌
 
-A lib used to read _teleinformation_ from electirc meter. Basically, the I1 and I2 port provide a serial signal with some usefull informations.
+A lib used to read _teleinformation_ from electric meter. Basically, the I1 and I2 port provide a serial signal with some usefull informations.
 Tested only with ESP8266, but should work with other boards using [MicroPython](http://micropython.org).
 
 ⚠️ Since ESP8266 has only 1 UART (https://docs.micropython.org/en/latest/esp8266/quickref.html#uart-serial-bus), we need to detach Python REPL in order to record provider's data.
